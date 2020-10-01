@@ -20,7 +20,7 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #091921;
+    background: #2C00B9;
 }
 .calculator
 {
@@ -42,18 +42,24 @@ body
     display: grid;
     height: 60px;
     color: #fff;
-    background: #0c2835;
+    background: #A6A600;
     place-items: center;
     border: 1px solid rgba(0,0,0,.1);
 }
 .calculator span:active
 {
-    background: #74ff3b;
+    background: #D20077;
     color: #111;
 }
 .calculator span.clear {
     grid-column: span 2;
+    background: #85004B;
 }
 .calculator span.equals {
     grid-column: span 2;
+    background: #85004B;
+}
+.calculator span.sym {
+    color: #111;
+    background: #FFFF00;
 }
