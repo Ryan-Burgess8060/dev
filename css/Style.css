@@ -48,11 +48,13 @@ body
 }
 .calculator span.clear {
     grid-column: span 2;
-    background: #C1C100;
+    background: #A3A300;
+    color: #fff;
 }
 .calculator span.equals {
     grid-column: span 2;
-    background: #C1C100;
+    color: #fff;
+    background: #A3A300;
 }
 .calculator span.sym {
     color: #fff;
