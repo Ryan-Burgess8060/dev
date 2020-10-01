@@ -12,6 +12,7 @@ and open the template in the editor.
         <link href="css/Style.css" rel="stylesheet">
     </head>
     <body>
+        <p>Hello Word</p>
         <form class="calculator" name="calc">
             <input class="value" type="text" name="txt" readonly="">
             <span class="num clear" onclick="document.calc.txt.value =''">Clear</span>
