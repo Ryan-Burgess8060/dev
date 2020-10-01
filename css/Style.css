@@ -41,10 +41,10 @@ body
 {
     display: grid;
     height: 60px;
-    color: #111;
+    color: #fff;
     background: #FFFF00;
     place-items: center;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 3px solid rgba(0,0,0,.1);
 }
 .calculator span.clear {
     grid-column: span 2;
