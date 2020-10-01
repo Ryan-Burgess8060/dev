@@ -8,8 +8,29 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title></title>
+        <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        
+        <form class="calculator" name="calc">
+            <input class="value" type="text" name="txt" readonly="">
+            <span class="num clear" onclick="document.calc.txt.value =''">Clear</span>
+            <span class="num equals" onclick="document.calc.txt.value = eval(calc.txt.value)">=</span>
+            <span class="num" onclick="document.calc.txt.value +='7'">7</span>
+            <span class="num" onclick="document.calc.txt.value +='8'">8</span>
+            <span class="num" onclick="document.calc.txt.value +='9'">9</span>
+            <span class="num" onclick="document.calc.txt.value +='+'">+</span>
+            <span class="num" onclick="document.calc.txt.value +='4'">4</span>
+            <span class="num" onclick="document.calc.txt.value +='5'">5</span>
+            <span class="num" onclick="document.calc.txt.value +='6'">6</span>
+            <span class="num" onclick="document.calc.txt.value +='-'">-</span>
+            <span class="num" onclick="document.calc.txt.value +='1'">1</span>
+            <span class="num" onclick="document.calc.txt.value +='2'">2</span>
+            <span class="num" onclick="document.calc.txt.value +='3'">3</span>
+            <span class="num" onclick="document.calc.txt.value +='*'">X</span>
+            <span class="num" onclick="document.calc.txt.value +='.'">.</span>
+            <span class="num" onclick="document.calc.txt.value +='0'">0</span>
+            <span class="num" onclick="document.calc.txt.value +='**'">^</span>
+            <span class="num" onclick="document.calc.txt.value +='/'">/</span>
+        </form>
     </body>
 </html>
