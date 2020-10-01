@@ -46,11 +46,6 @@ body
     place-items: center;
     border: 1px solid rgba(0,0,0,.1);
 }
-.calculator span:active
-{
-    background: #D20077;
-    color: #111;
-}
 .calculator span.clear {
     grid-column: span 2;
     background: #85004B;
@@ -62,4 +57,9 @@ body
 .calculator span.sym {
     color: #111;
     background: #FFFF00;
+}
+.calculator span:active
+{
+    background: #D20077;
+    color: #111;
 }
