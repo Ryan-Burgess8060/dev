@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <meta name="author" content="Ryan Burgess">
-        <title></title>
+        <title>Ryan's Calculator</title>
         <link href="css/Style.css" rel="stylesheet">
     </head>
     <body>
