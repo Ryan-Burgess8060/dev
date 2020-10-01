@@ -18,19 +18,19 @@ and open the template in the editor.
             <span class="num" onclick="document.calc.txt.value +='7'">7</span>
             <span class="num" onclick="document.calc.txt.value +='8'">8</span>
             <span class="num" onclick="document.calc.txt.value +='9'">9</span>
-            <span class="num" onclick="document.calc.txt.value +='+'">+</span>
+            <span class="num sym" onclick="document.calc.txt.value +='+'">+</span>
             <span class="num" onclick="document.calc.txt.value +='4'">4</span>
             <span class="num" onclick="document.calc.txt.value +='5'">5</span>
             <span class="num" onclick="document.calc.txt.value +='6'">6</span>
-            <span class="num" onclick="document.calc.txt.value +='-'">-</span>
+            <span class="num sym" onclick="document.calc.txt.value +='-'">-</span>
             <span class="num" onclick="document.calc.txt.value +='1'">1</span>
             <span class="num" onclick="document.calc.txt.value +='2'">2</span>
             <span class="num" onclick="document.calc.txt.value +='3'">3</span>
-            <span class="num" onclick="document.calc.txt.value +='*'">X</span>
+            <span class="num sym" onclick="document.calc.txt.value +='*'">X</span>
             <span class="num" onclick="document.calc.txt.value +='.'">.</span>
             <span class="num" onclick="document.calc.txt.value +='0'">0</span>
-            <span class="num" onclick="document.calc.txt.value +='**'">^</span>
-            <span class="num" onclick="document.calc.txt.value +='/'">/</span>
+            <span class="num sym" onclick="document.calc.txt.value +='**'">^</span>
+            <span class="num sym" onclick="document.calc.txt.value +='/'">/</span>
         </form>
     </body>
 </html>
