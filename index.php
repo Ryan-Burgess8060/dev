@@ -15,7 +15,15 @@ and open the template in the editor.
         <form class="calculator" name="calc">
             <input class="value" type="text" name="txt" readonly="">
             <span class="num clear" onclick="document.calc.txt.value =''">Clear</span>
-            <span class="num equals" onclick="<?php try{echo 'document.calc.txt.value = eval(calc.txt.value)';} catch(SyntaxError $s){echo 'document.calc.txt.value = "Error"';}?>">=</span>
+            <span class="num equals" onclick="
+                <script>
+                    e = 'Error'
+                    try{
+                        document.write('document.calc.txt.value = eval(calc.txt.value)');
+                    } catch (error){
+                        document.write('document.calc.txt.value = 'e)
+                    }
+                </script>">=</span>
             <span class="num" onclick="document.calc.txt.value +='7'">7</span>
             <span class="num" onclick="document.calc.txt.value +='8'">8</span>
             <span class="num" onclick="document.calc.txt.value +='9'">9</span>
