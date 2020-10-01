@@ -7,6 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="author" content="Ryan Burgess">
         <title></title>
         <link href="css/Style.css" rel="stylesheet">
     </head>
