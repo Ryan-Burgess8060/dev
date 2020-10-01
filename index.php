@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title></title>
-        <link href="css/style.css" rel="stylesheet">
+        <link href="css/Style.css" rel="stylesheet">
     </head>
     <body>
         <form class="calculator" name="calc">
