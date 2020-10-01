@@ -48,18 +48,18 @@ body
 }
 .calculator span.clear {
     grid-column: span 2;
-    background: #85004B;
+    background: #D20077;
 }
 .calculator span.equals {
     grid-column: span 2;
-    background: #85004B;
+    background: #D20077;
 }
 .calculator span.sym {
     color: #fff;
-    background: #A6A600;
+    background: #D7D700;
 }
 .calculator span:active
 {
-    background: #D20077;
+    background: #FD008F;
     color: #111;
 }
