@@ -20,7 +20,7 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #2C00B9;
+    background: #1B0072;
 }
 .calculator
 {
@@ -41,8 +41,8 @@ body
 {
     display: grid;
     height: 60px;
-    color: #fff;
-    background: #A6A600;
+    color: #111;
+    background: #FFFF00;
     place-items: center;
     border: 1px solid rgba(0,0,0,.1);
 }
@@ -55,8 +55,8 @@ body
     background: #85004B;
 }
 .calculator span.sym {
-    color: #111;
-    background: #FFFF00;
+    color: #fff;
+    background: #A6A600;
 }
 .calculator span:active
 {
