@@ -7,23 +7,24 @@ and open the template in the editor.
     Created on : Sep 10, 2020, 6:09:27 PM
     Author     : Ryan
 */
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Comic Sans MS', Verdana, sans-serif;
 }
-body
-{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #091921;
 }
-.calculator .value
-{
+.calculator {
+    position: relative;
+    display: grid;
+}
+.calculator .value {
    grid-column: span 4;
    height: 100px;
    text-align: right;
@@ -32,8 +33,7 @@ body
    padding: 10px;
    font-size: 18px;
 }
-.calculator span
-{
+.calculator span {
     display: grid;
     width: 60px;
     height: 60px;
@@ -42,18 +42,15 @@ body
     place-items: center;
     border: 1px solid rgba(0,0,0,.1);
 }
-.calculator span:active
-{
+.calculator span:active {
     background: #74ff3b;
     color: #111;
 }
-.calculator span.clear
-{
+.calculator span.clear {
     grid-column: span 2;
     width: 120px;
 }
-.calculator span.equals
-{
+.calculator span.equals {
     grid-column: span 2;
     width: 120px;
 }
