@@ -12,6 +12,15 @@ and open the template in the editor.
         <link href="css/Style.css" rel="stylesheet">
     </head>
     <body>
+        <script>
+            function calcfunction(document.calc.txt.value) {
+                try {
+                    document.calc.txt.value = eval(document.calc.txt.value);
+                } catch {
+                    document.calc.txt.value = Error;
+                }
+            } ;
+        </script>
         <form class="calculator" name="calc">
             <input class="value" type="text" name="txt" readonly="">
             <span class="num clear" onclick="document.calc.txt.value =''">Clear</span>
@@ -33,14 +42,6 @@ and open the template in the editor.
             <span class="num sym" onclick="document.calc.txt.value +='**'">^</span>
             <span class="num sym" onclick="document.calc.txt.value +='/'">/</span>
         </form>
-        <script>
-            function calcfunction(document.calc.txt.value) {
-                try {
-                    document.calc.txt.value = eval(document.calc.txt.value);
-                } catch {
-                    document.calc.txt.value = Error;
-                }
-            } ;
-        </script>
+        
     </body>
 </html>
