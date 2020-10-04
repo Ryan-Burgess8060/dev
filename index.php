@@ -17,7 +17,7 @@ and open the template in the editor.
             try {
               return eval(x);
             } catch(err) {
-                return "Error"
+                return "Error";
             } }
         </script>
         <form class="calculator" name="calc">
