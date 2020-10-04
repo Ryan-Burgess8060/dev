@@ -34,7 +34,7 @@ and open the template in the editor.
             <span class="num sym" onclick="document.calc.txt.value +='/'">/</span>
         </form>
         <script>
-            calcfunction(document.calc.txt.value) {
+            calcfunction(document.calc.txt.value); {
                 try {
                     document.calc.txt.value = eval(document.calc.txt.value);
                 } catch {
