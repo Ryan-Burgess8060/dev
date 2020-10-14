@@ -12,6 +12,16 @@ and open the template in the editor.
         <link href="css/Style.css" rel="stylesheet">
     </head>
     <body>
+        <?php
+            $hn = "localhost";
+            $dn = "Logs";
+            $user = "phpmyadmin";
+            $pass = "maximus8060";
+            $myDBconnection = new PDO("mysql:host=$hn;dbname=$dn", $user, $pass);
+            $query = "INSERT INTO log (sitetype, date) VALUES ('A user has accessed the main site', NOW())";
+            $dbquery = $myDBconnection -> prepare($query);
+            $dbquery -> execute();
+        ?>
         <script>
             function equal(x) {
             try {
