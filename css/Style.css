@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 10, 2020, 6:09:27 PM
+    Author     : Ryan
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", Verdana, sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #8831A7;
+}
+.calculator
+{
+    position: relative;
+    display: grid;
+    border: 2px solid rgb(0,0,0);
+}
+.calculator .value
+{
+    grid-column: span 4;
+    height: 100px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid rgb(0,0,0);
+}
+.calculator span 
+{
+    display: grid;
+    height: 60px;
+    color: #111;
+    background: #FFFF00;
+    place-items: center;
+    border: 2px solid rgb(0,0,0);
+}
+.calculator span.clear {
+    grid-column: span 2;
+    background: #A3A300;
+    color: #fff;
+}
+.calculator span.equals {
+    grid-column: span 2;
+    color: #fff;
+    background: #A3A300;
+}
+.calculator span.sym {
+    color: #fff;
+    background: #D7D700;
+}
+.calculator span:active
+{
+    background: #FD008F;
+    color: #111;
+}
