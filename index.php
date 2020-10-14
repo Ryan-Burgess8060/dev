@@ -18,7 +18,7 @@ and open the template in the editor.
             $user = "phpmyadmin";
             $pass = "maximus8060";
             $myDBconnection = new PDO("mysql:host=$hn;dbname=$dn", $user, $pass);
-            $query = "INSERT INTO log (sitetype, date) VALUES ('A user has accessed the main site', NOW())";
+            $query = "INSERT INTO log (sitetype, date) VALUES ('A user has accessed the dev site', NOW())";
             $dbquery = $myDBconnection -> prepare($query);
             $dbquery -> execute();
         ?>
